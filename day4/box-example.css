@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ul.li{
+    list-style: none;
+}
+
+.cell{
+    float:left;
+}
+
+.row{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.wrap{
+    width:1200px;
+    height:200px;
+    background-color: #ddd;
+    margin:0 auto;
+}
+
+.red-box{
+    width:800px;
+    height:200px;
+    background-color: red;
+}
+
+.blue-box{
+    width:400px;
+    height: 200px;
+    background-color: blue;
+}
+
+
+.wrap2{
+   width:1200px;
+   height:200px;
+   background-color: #ddd;
+   margin:0 auto;
+
+}
+.gray-box{
+    width:400px;
+    height:200px;
+    background-color: gray;
+    border:10px solid white;
+    box-sizing:border-box;
+}
+

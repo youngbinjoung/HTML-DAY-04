@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+
+.cell{
+    float:left;
+}
+
+.row{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+.wrap{
+    width:600px;
+    height:800px;
+    background-color:#ddd;
+    margin:0 auto;
+}
+
+.email{
+    width:600px;
+    height:60px;
+    box-sizing:border-box;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.name{
+    width:297px;
+    height:60px;
+    box-sizing:border-box;
+    margin-right:6px;
+    padding:10px;
+}
+
+.job{
+    width:297px;
+    height:60px;
+    box-sizing: border-box;
+    padding:10px;
+}
